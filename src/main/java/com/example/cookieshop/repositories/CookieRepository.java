@@ -1,11 +1,13 @@
 package com.example.cookieshop.repositories;
 
 import com.example.cookieshop.models.Cookie;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@Repository
 public class CookieRepository {
     //TODO Implement real repository
     /*This is a test-repository*/

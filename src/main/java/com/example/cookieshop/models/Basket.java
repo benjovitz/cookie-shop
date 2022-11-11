@@ -16,4 +16,12 @@ public class Basket {
     public void setCookieList(List<Cookie> cookieList) {
         this.cookieList = cookieList;
     }
+
+    public int totalPrice(){
+        int price = 0;
+        for (Cookie cookie: cookieList) {
+            price += cookie.getPrice();
+        }
+        return price;
+    }
 }
